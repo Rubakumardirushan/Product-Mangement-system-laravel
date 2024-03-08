@@ -20,7 +20,7 @@ Auth::login($user);
 return redirect('/View');
 
         }else{
-            return back()->withErrors(['Invalid']);
+            return back()->withErrors(['Invalid Email Or Password']);
         }
 
     }
@@ -32,7 +32,7 @@ return redirect('/View');
 
 
 Auth::logout();
-return redirect('/login');
+return redirect('/');
 
     }
 }

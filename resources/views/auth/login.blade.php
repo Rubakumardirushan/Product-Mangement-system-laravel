@@ -26,7 +26,7 @@
             </ul>
         @endif
         <div class="register-link">
-            Don't have an account? <a href="/">Register here</a>
+            Don't have an account? <a href="/register">Register here</a>
         </div>
     </div>
 </div>
